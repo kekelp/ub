@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Arena.tscn" type="PackedScene" id=2]
+[ext_resource path="res://main-client.gd" type="Script" id=3]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource( 3 )
+
+[node name="Arena" parent="." instance=ExtResource( 2 )]
+
+[node name="Label" type="Label" parent="."]
+margin_left = 388.438
+margin_top = 226.923
+margin_right = 428.438
+margin_bottom = 240.923
+rect_scale = Vector2( 4.37053, 4.37053 )
+text = "client
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}

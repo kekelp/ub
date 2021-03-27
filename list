@@ -1,0 +1,59 @@
+
+AIMED PUNCHES - kinda bad
+
+DMG BUFF ON offensive_arc - mostly works
+
+ENERGY ADJ? - mostly works
+OVERSTRETCH MODE - hopefully not needed anymore
+
+DAMAGE METER - mostly works
+
+
+grab extrakick -mostly werks
+rethink tresholds for extrakick and damage - not really
+
+grab damage  -mostly werks
+
+---------------
+
+
+SPRITES and vfx
+
+colors --ok
+
+names --ok
+
+spawning --ok
+
+dying
+
+controllers
+
+----------------
+fix airborne detection
+counter-grab force ? different when either is flying?
+
+rescale bounce mod
+
+add miracle beams???
+
+change extrakick/damage to be based only on velocity component through center?
+
+different swing arcs for stances
+
+hand clashes
+3rd stance
+
+no changing stance mid-throw!
+
+
+
+better walking
+
+better swingin
+
+JUICE
+
+better positioning for boom vfx
+
+

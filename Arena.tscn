@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://static-arena-part.gd" type="Script" id=1]
+[ext_resource path="res://sprites/arena2.png" type="Texture" id=2]
+
+[node name="Arena" type="StaticBody2D" groups=[
+"arena",
+]]
+position = Vector2( 201.587, -20.1588 )
+collision_layer = 4
+collision_mask = 3
+script = ExtResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+position = Vector2( 517.08, 514.338 )
+polygon = PoolVector2Array( 439.715, 0, 436.591, -103.919, 498.43, -103.919, 493.673, -213.326, 584.053, -208.569, 579.296, -303.706, 683.946, -308.463, 690.735, 78.3535, -720.349, 97.6636, -714.446, -313.82, -609.795, -313.82, -606.966, -240.281, -522.113, -243.109, -513.628, -113.002, -442.917, -118.659, -444.256, 0 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 1007.03, 301.37 )
+scale = Vector2( 1.10754, 1.10754 )
+texture = ExtResource( 2 )
+offset = Vector2( -449.823, 54.8271 )
+
+[node name="spawn-left" type="Position2D" parent="."]
+position = Vector2( 157.177, 365.47 )
+
+[node name="spawn-right" type="Position2D" parent="."]
+position = Vector2( 869.126, 365.47 )
+
+[node name="die_top" type="Position2D" parent="."]
+position = Vector2( 483.509, -549.403 )
+
+[node name="die_bottom" type="Position2D" parent="."]
+position = Vector2( 483.509, 1003.77 )
+
+[node name="die_left" type="Position2D" parent="."]
+position = Vector2( -352, 72 )
+
+[node name="die_right" type="Position2D" parent="."]
+position = Vector2( 1364, 52 )
